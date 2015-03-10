@@ -1,0 +1,240 @@
+img
+{
+	max-width:100%;
+	max-height:100%;
+}
+/***********************************************************
+               HEADER
+***********************************************************/
+#heading
+{
+	text-align: center;
+	color:red;
+	background-color: black;
+	width:100%;
+	margin:0;
+	padding:10px 0 0 0;
+}
+
+#heading h2
+{
+	margin:0;
+}
+#navigation
+{
+	text-align: center;
+	margin: 0 0 30px 0;
+	background-color:#999;
+	width:100%;
+
+}
+#navigation ul
+{    
+ margin: 0px;
+}
+#navigation  li a
+{
+	text-decoration: none;
+	padding: 0 5px;
+}
+
+#navigation li
+{    
+ list-style: none;
+  display: inline-block;
+}
+a{
+	color: blue;
+}
+
+a:hover
+{
+	color:white;
+}
+a.selected
+{
+	background-color: antiquewhite;
+	color:red;	
+}
+
+/***********************************************************
+               SECTION
+***********************************************************/
+	
+section a
+{       
+	text-decoration: none;
+}
+
+#photo
+{
+	margin:0;
+	padding: 0;
+}
+
+#photo li
+{
+float: left;
+width:45%;
+height:20%;
+margin:2.5%;
+list-style: none;
+background-color:#f5f5f5;
+}
+#photo a p
+{color:green;
+padding-left: 25%;
+}
+/***********************************************************
+               SECTION2
+***********************************************************/
+.exp
+{
+	clear: both;
+	text-align: center;
+}
+#photo1
+{
+	margin:0;
+	padding: 0;
+}
+
+#photo1 li
+{
+float: left;
+width:45%;
+height:20%;
+margin:2.5%;
+list-style: none;
+background-color:#f5f5f5;
+}
+#photo1 a p
+{color:green;
+padding-left: 25%;
+}
+/***********************************************************
+               SECTION3/div indian
+***********************************************************/
+.indian
+{
+	clear: both;
+	text-align: center;
+}
+#photo2
+{
+	margin:0;
+	padding: 0;
+}
+
+#photo2 li
+{
+float: left;
+width:45%;
+margin:2.5%;
+list-style: none;
+background-color:#f5f5f5;
+}
+#photo2 a p
+{color:green;
+padding-left: 25%;
+}
+/***********************************************************
+               SECTION4/div curry
+***********************************************************/
+.curry
+{
+	clear: both;
+	text-align: center;
+}
+#photo3
+{
+	margin:0;
+	padding: 0;
+}
+
+#photo3 li
+{
+float: left;
+width:45%;
+margin:2.5%;
+list-style: none;
+background-color:#f5f5f5;
+}
+#photo3 a p
+{color:green;
+padding-left: 25%;
+}
+/***********************************************************
+               FOOTER
+***********************************************************/
+footer
+{
+	clear:both;
+	text-align: center;
+	margin-top:20%;
+	
+
+}
+footer img
+ {
+ 	height:40px;
+ 	width:60px;
+ }
+footer p
+ {font-size: .75em;}
+
+ /***********************************************************
+               ABOUT
+   ***********************************************************/
+.about img
+{
+	display: block;
+	width:100px;
+	height:200px;
+	border-radius: 100%;
+	margin: 0 auto 30px;
+
+}
+.about p
+ {
+margin-top: 5%;
+margin-left: 35%;
+margin-right: 35%;
+ }
+ /***********************************************************
+               CONTACT	
+***********************************************************/
+.contact 
+ {
+margin-right: auto;
+margin-left: auto;
+width:50%;
+line-height: 25px;
+ }
+ body {
+ 	background-color: antiquewhite;
+ }
+ .contact p
+  {
+  	margin:100px 0 0 0;
+  }
+ .contactlogo  li
+  	{
+     list-style: none;
+     display:block;
+     min-height:20px;
+     background-size: 20px 20px;
+     padding: 0 0 0 30px;
+     margin: 0 0 10px;
+     background-repeat: no-repeat;
+  	}
+.contactlogo  li.phone
+  	{
+     background-image: url("../img/logo/hone.png");
+    
+  	}
+ .contactlogo  li.mail
+  	{
+     background-image: url("../img/logo/mail.png");
+   
+  	}
