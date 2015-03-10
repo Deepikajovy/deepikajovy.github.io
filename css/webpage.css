@@ -61,7 +61,7 @@ a.selected
                SECTION
 ***********************************************************/
 	
-section a
+#photo  a
 {       
 	text-decoration: none;
 }
@@ -75,9 +75,9 @@ section a
 #photo li
 {
 float: left;
-width:45%;
+width:30%;
 height:20%;
-margin:2.5%;
+margin:1.6%;
 list-style: none;
 background-color:#f5f5f5;
 }
@@ -98,13 +98,13 @@ padding-left: 25%;
 	margin:0;
 	padding: 0;
 }
-
+#photo1 a
+{text-decoration: none;}
 #photo1 li
 {
 float: left;
-width:45%;
-height:20%;
-margin:2.5%;
+width:30%;
+margin:1.6%;
 list-style: none;
 background-color:#f5f5f5;
 }
@@ -125,7 +125,8 @@ padding-left: 25%;
 	margin:0;
 	padding: 0;
 }
-
+#photo2 a
+{text-decoration: none;}
 #photo2 li
 {
 float: left;
@@ -151,12 +152,13 @@ padding-left: 25%;
 	margin:0;
 	padding: 0;
 }
-
+#photo3 a
+{text-decoration: none;}
 #photo3 li
 {
 float: left;
-width:45%;
-margin:2.5%;
+width:40%;
+margin:5%;
 list-style: none;
 background-color:#f5f5f5;
 }
@@ -189,7 +191,7 @@ footer p
 .about img
 {
 	display: block;
-	width:100px;
+	width:200px;
 	height:200px;
 	border-radius: 100%;
 	margin: 0 auto 30px;
