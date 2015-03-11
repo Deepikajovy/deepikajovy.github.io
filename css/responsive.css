@@ -25,12 +25,12 @@ index page layout
 #photo li:nth-child(4n)
 {clear:left;
 }
-/*#photo1 li
+#photo1 li
 {
 	width: 28.3333%;
 	margin:2.5%;
 }
-/*#photo1 li:nth-child(4n)
+#photo1 li:nth-child(4n)
 {
 	clear:left;
 	
@@ -40,10 +40,10 @@ index page layout
 	width: 28.3333%;
 	margin: 2.5%;
 }
-#photo2 li:nth-child(4n)
+/*#photo2 li:nth-child(4n)
 {
 	clear:left;
-}
+}*/
 #photo3 li
 {
 	width: 28.3333%;
