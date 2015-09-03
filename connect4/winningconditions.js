@@ -15,7 +15,7 @@ console.log()
  if(haswon===true)
  {
  	//alert("u won")
- 	alert("Congratulations!!!!!!    "+activeclass+"   Won.."); 
+ 	alert("Congratulations!!!!!! "+activeclass+"   Wins.."); 
 	     
  document.getElementById("grid").style.pointerEvents = 'none';
   //var win=document.getElementsByClassName('winnermusic');  
